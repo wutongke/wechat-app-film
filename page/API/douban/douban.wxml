@@ -1,0 +1,29 @@
+<view class="container">
+     <view class="section section_gap swiper">
+            <swiper indicator-dots="{{indicatorDots}}" vertical="{{vertical}}"
+                    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+                <block wx:for-items="{{banners}}" wx:for-item="banner">
+                    <swiper-item>
+                        <view class="swiper-item" data-id="{{banner.id}}" data-title="{{banner.title}}" bindtap="tapMenuItem">
+                            <image class="swiper-item"
+                                src="{{banner.images.large}}">   
+                            </image>
+                        </view>
+                    </swiper-item>
+                </block>
+            </swiper>
+     </view>
+    <view class="menu-list">
+        <block wx:for-items="{{moveList}}" wx:for-item="moveItem">
+            <view class="menu-item">
+                <view class="menu-item-main" data-id="{{moveItem.id}}" data-title="{{moveItem.title}}" bindtap="tapMenuItem">
+                    <text class="menu-item-name">{{moveItem.title}}</text>
+                    <image
+                            class="menu-item-arrow"
+                            src="{{moveItem.images.small}}">
+                    </image>
+                </view>
+            </view>
+        </block>
+    </view>
+</view>
