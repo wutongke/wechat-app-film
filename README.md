@@ -7,6 +7,7 @@
 
 ![Paste_Image.png](http://upload-images.jianshu.io/upload_images/1407686-4a3182730d7399e6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/600)
 
+wiki:[blog](http://www.jianshu.com/p/6be20a757fd8)
 
 非常感谢：
 
