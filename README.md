@@ -14,3 +14,6 @@ wiki:[blog](http://www.jianshu.com/p/6be20a757fd8)
 **[weapp-douban-film](https://github.com/hingsir/weapp-douban-film)**
 
 **[weapp-ide-crack](https://github.com/gavinkwoe/weapp-ide-crack)**
+
+Link:
+**[awesome-wechat-weapp](https://github.com/justjavac/awesome-wechat-weapp)**
