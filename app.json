@@ -1,16 +1,35 @@
 {
   "pages": [
-      "page/API/douban/douban",
-      "page/API/douban-detail/douban-detail"
-
+    "page/API/douban/douban",
+    "page/API/zhihu/zhihu",
+    "page/API/douban-detail/douban-detail"
   ],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "豆瓣电影",
     "navigationBarBackgroundColor": "#fbf9fe",
     "backgroundColor": "#fbf9fe"
   },
-   "networkTimeout": {
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "#f6f6f6",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "page/API/douban/douban",
+        "iconPath": "image/wechat.png",
+        "selectedIconPath": "image/wechat.png",
+        "text": "豆瓣电影"
+      },
+      {
+        "pagePath": "page/API/zhihu/zhihu",
+        "iconPath": "image/wechat.png",
+        "selectedIconPath": "image/wechat.png",
+        "text": "知乎日报"
+      }
+    ]
+  },
+  "networkTimeout": {
     "request": 10000,
     "connectSocket": 10000,
     "uploadFile": 10000,
